@@ -1,0 +1,248 @@
+<!DOCTYPE HTML>
+<!--
+	Horizons by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Send2Plate</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body class="homepage">
+
+		<div class="modal blur-effect" id="popup">
+			<div class="popup-content">
+				<h3>Connexion à l'espace Membre</h3>
+				<div>
+			<form action="connexion.html" method="post" id="connexion">
+	<div>
+    <label>
+      Email : 
+    </label>
+    <div>
+      <input type="text" name="email" /> 
+   </div>
+  </div>
+
+  	<div>
+    <label>
+      Mot de pass : 
+    </label>
+    <div>
+      <input type="password" name="pass" /> 
+   </div>
+  </div>
+  <br />
+  	<div>
+    <div style="text-align:center;">
+      <input type="submit" value="Connexion" /> 
+   </div>
+  </div>
+			</form>
+			<br />
+			Pas encore <a href="inscription.html" style="font-color:white;">inscrit ?</a> 
+					
+					<div class="close"></div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<!-- Header -->
+			<div id="header">
+				<div class="container">
+						
+					<!-- Logo -->
+						<h1><a href="#" id="logo"><img src="images/logo.tiff" /></a></h1>
+					
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Accueil</a></li>
+								<li>
+									<a href="">Espace Membre/Inscription</a>
+									<ul>
+										<li><a href="profil.html">Mon Profil</a></li>
+										<li><a href="plaques.html">Mes plaques</a></li>
+										<li><a href="stats.html">Mes stats</a></li>
+										<!-- 										<li><a class="popup-button" data-modal="popup">Se connecter</a></li>
+
+										<li>
+											<a href="">Phasellus consequat</a>
+											<ul>
+												<li><a href="#">Lorem ipsum dolor</a></li>
+												<li><a href="#">Phasellus consequat</a></li>
+												<li><a href="#">Magna phasellus</a></li>
+												<li><a href="#">Etiam dolore nisl</a></li>
+												<li><a href="#">Veroeros feugiat</a></li>
+											</ul>
+										</li>
+									-->
+
+									</ul>
+								</li>
+
+								<li><a href="about.html">A propos</a></li>
+								<li><a href="contact.html">Contact</a></li>
+																	<li><a class="popup-button" data-modal="popup">Se Connecter/S'inscrire</a></li>
+								<li><a href="admin.html">Administration</a></li>
+
+
+							</ul>
+						</nav>
+
+
+					<!-- Banner -->
+						<div id="banner">
+							<div class="container">
+								<section>
+									<header class="major">
+										<h2>Send2Plate</h2>
+											<form action="send.html" method="post" id="connexion">
+										<span class="byline">Rendre la route plus sûre !
+											<br />
+<br />											<input type="text" name="plate" style="width:250px;text-align:center;" value="AA-123-AA" onFocus="javascript:this.value=''"/>
+										<input type="text" name="danger" style="width:250px;text-align:center;"  value="Nature du danger" onFocus="javascript:this.value=''"/>
+										</span>
+
+
+									</header>
+									<a href="send.html" class="button alt" onClick="document.forms['connexion'].submit();" >Send</a>
+								</form>
+								</section>			
+							</div>
+						</div>
+
+				</div>
+			</div>
+
+		<!-- Featured -->
+			<div class="wrapper style2">
+				<section class="container">
+					<header class="major">
+						<h2>Comment ça marche ?</h2>
+
+					</header>
+					<div class="row no-collapse-1">
+						<section class="4u">
+														<div class="circle">
+    1
+</div>
+							<span class="byline"><b>Je détecte un risque</b></span>
+
+							<br />
+<img src="images/detection.png" style="width:40%";/>
+<br />
+							<p>J'ai remarqué un risque sur la route</p>
+						</section>
+						<section class="4u">
+																					<div class="circle">
+    2
+</div>
+							<span class="byline"><b>Je l'envoie</b></span>
+														<br />
+														<img src="images/envoie.png" style="width:60%";/>
+
+							<p>J'entre la plaque d'immatriculation de la voiture concernée sur Send2Plate.</p>
+							<br />
+						</section>
+						<section class="4u">
+																					<div class="circle">
+    3
+</div>
+							<span class="byline"><b>Notification de la plaque</b></span>
+							<br />
+									<img src="images/notifie.png" style="width:80%";/>
+									<br />
+							<p>Le propriétaire de la plaque sera notifié.</p>
+						</section>
+	
+					</div>
+				</section>
+			</div>
+
+		<!-- Main -->
+		<!--
+			<div id="main" class="wrapper style1">
+				<section class="container">
+					<header class="major">
+						<h2>Nulla luctus eleifend</h2>
+						<span class="byline">Mauris vulputate dolor sit amet nibh</span>
+					</header>
+					<div class="row">
+					
+						<!-- Content -->
+						<!--
+							<div class="6u">
+								<section>
+									<ul class="style">
+										<li>
+											<span class="fa fa-wrench"></span>
+											<h3>Integer ultrices</h3>
+											<span>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim.</span>
+										</li>
+										<li>
+											<span class="fa fa-cloud"></span>
+											<h3>Aliquam luctus</h3>
+											<span>Pellentesque viverra vulputate enim. Aliquam erat volutpat. Maecenas condimentum enim tincidunt risus accumsan.</span>
+										</li>
+									</ul>
+								</section>
+							</div>
+							<div class="6u">
+								<section>
+									<ul class="style">
+										<li>
+											<span class="fa fa-cogs"></span>
+											<h3>Integer ultrices</h3>
+											<span>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim.</span>
+										</li>
+										<li>
+											<span class="fa fa-leaf"></span>
+											<h3>Aliquam luctus</h3>
+											<span>Pellentesque viverra vulputate enim. Aliquam erat volutpat. Maecenas condimentum enim tincidunt risus accumsan.</span>
+										</li>
+									</ul>
+								</section>
+							</div>
+
+					</div>
+				</section>
+			</div>
+
+		<!-- Footer -->
+
+
+			<div id="footer">
+
+					<!-- Copyright -->
+						<div class="copyright">
+							&copy; Send2Plate. Tous droits resérvés
+						</div>
+
+				</div>
+			</div>
+
+
+		
+		<!-- Le script qui crée la popup -->
+		<div class="overlay"></div><!-- La div overlay -->
+		<script src="js/popup.js"></script>
+
+	</body>
+</html>
