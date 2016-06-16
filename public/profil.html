@@ -49,7 +49,7 @@
   <br />
   	<div>
     <div style="text-align:center;">
-      <input type="submit" value="Connexion" /> 
+      <a href="connexion.html" class="buttonenvoie" onClick="document.forms['connexion'].submit();" >Connexion</a>
    </div>
   </div>
 			</form>
@@ -116,7 +116,7 @@
 						</header>
 						<!-- En cas de validation -->
 
-    <form method="post" action="modifprofil.html">
+    <form method="post" action="modifprofil.html" id="modifprof">
         <label>Nom : 
         <input type="text" name="nom" value="Zerah" onFocus="javascript:this.value=''"></input>
         </label>
@@ -137,7 +137,7 @@
         </label>
       <br /><br />
       <div style="text-align:center">
-		<input type="submit" name="Submit" value="Modifier">
+      <a href="modifprof.html" class="buttonenvoie" onClick="document.forms['modifprof'].submit();" >Modifier</a>
 	</div>
 			
 	</form>
