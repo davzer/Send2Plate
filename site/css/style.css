@@ -279,7 +279,7 @@ padding:2px;
 /* Fin POPUP */
 
 .circle{
-    margin-left:90px;
+    margin-left: 40%;
     width:100px;
     text-align:center;
     background:#65ac46;
@@ -754,6 +754,50 @@ padding:2px;
 		.button.small {
 			font-size: 0.8em;
 		}
+
+/*Bouton pour régler le conflit avec le JS*/
+
+	.buttonenvoie {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-o-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: background-color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out;
+		-o-transition: background-color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out;
+		background: #000000;
+		border-radius: 40px;
+		border: 0;
+		color: white;
+		cursor: pointer;
+		display: inline-block;
+		padding: 0.80em 2em;
+		text-align: center;
+		text-decoration: none;
+		font-size: 1.4em;
+		font-weight: 600;
+		min-width: 10em;
+	}
+
+		.buttonenvoie:hover {
+			background-color: #65ac46;
+		}
+
+
+		.buttonenvoie.fit {
+			width: 100%;
+		}
+
+
+		.buttonenvoie.small {
+			font-size: 0.8em;
+		}
+
+
+
 
 /* Wrapper */
 
